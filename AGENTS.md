@@ -1,8 +1,8 @@
 # mlabo-org Profile Repository Constitution
 
-このファイルは `mlabo-org/mlabo-org` profile repository 配下における Codex の局所 `AGENTS.md` であり、このprojectの正本、編集、公開条件を定義する SSOT である。
+このファイルは `mlabo-org/mlabo-org` profile repository 配下における Codex と Claude Code が共用する局所 `AGENTS.md` であり、このprojectの正本、編集、公開条件を定義する SSOT である。
 本書は助言集ではなく、project identity、source boundary、GitHub integration、検証条件を拘束する運用契約として扱う。
-上位の `AGENTS.md`、システム指示、開発者指示、ユーザーの明示要求と競合する場合は、Codex の優先順位規則に従う。
+上位の `AGENTS.md`、システム指示、開発者指示、ユーザーの明示要求と競合する場合は、作業中のホストエージェント（Codex または Claude Code）の優先順位規則に従う。Claude Code はこのファイルを同じフォルダの `CLAUDE.md` から `@AGENTS.md` で読み込む。
 
 ## Purpose And Source Boundary
 
